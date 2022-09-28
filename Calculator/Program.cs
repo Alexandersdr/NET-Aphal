@@ -22,12 +22,10 @@ namespace Calculador
 
             float resultado = v1 * v2;
 
-            
-            Console.WriteLine($"O resultado da Multriplicar é + {resultado}");
-            Console.WriteLine($"O resultado da Soma é + {v1 + v2}");
-            Console.WriteLine($"O resultado da Dividir é + {v1 / v2}");
-            Console.WriteLine($"O resultado da Subtrair é + {v1 - v2}");
-
+            Console.WriteLine($"O resultado da Soma é = {v1 + v2}");
+            Console.WriteLine($"O resultado da Subtrair é = {v1 - v2}");
+            Console.WriteLine($"O resultado da Multiplicador é = {resultado}");
+            Console.WriteLine($"O resultado da Dividir é = {v1 / v2}");
         }
     }
 }
